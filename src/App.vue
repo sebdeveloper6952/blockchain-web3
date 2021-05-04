@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Vote</router-link>
+      <router-link to="/">SebasExpress</router-link>
     </div>
     <router-view />
   </div>
@@ -21,6 +21,7 @@
 
   a {
     font-weight: bold;
+    font-size: 40;
     color: #2c3e50;
 
     &.router-link-exact-active {
